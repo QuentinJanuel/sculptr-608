@@ -2,6 +2,7 @@
   "name": "@sculptr/px608",
   "version": "1.1.1",
   "displayName": "608",
+  "icon": "https://cdn.jsdelivr.net/npm/@sculptr/px608/icon.svg",
   "description": "Give back the pixels some games cut off the bottom of the screen",
   "keywords": [
     "gamemaker",
@@ -24,7 +25,8 @@
     "prepublishOnly": "vite build"
   },
   "files": [
-    "dist"
+    "dist",
+    "icon.svg"
   ],
   "publishConfig": {
     "access": "public"
